@@ -115,6 +115,11 @@
   padding: 0;
 }
 
+/* Add smooth scrolling here */
+html {
+  scroll-behavior: smooth;
+}
+
 a { text-decoration: none; }
 
 li { list-style: none; }
