@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link" data-nav-link>About</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#resume" class="navbar-link" data-nav-link>Resume</a></li>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#portfolio" class="navbar-link" data-nav-link>Portfolio</a></li>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#contact" class="navbar-link" data-nav-link>Contact</a></li>
+          </li>
+
+        </ul>
+
+      </nav>
+      
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+     
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/Picture1.png" alt="Madhusudhan Unnava" width="80">
+        </figure>
+        
+
+        <div class="info-content">
+          <h1 class="name" title="Madhusudhan Unnava">Madhusudhan
+             Unnava</h1>
+
+          <p class="title">Data Analyst and Engineer</p>
+
+          <div class="resume-btn-container">
+            <a href="https://drive.google.com/file/d/1NVVB5ii9sBvAAX5QvTFIMYFIrCgXMtdG/view?usp=sharing" target="_blank" class="resume-btn">Download CV</a>
+          </div>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <img src="./assets/images/mail.png" alt="Web development icon" width="25">
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:madhusudhanu23@gmail.com" class="contact-link">madhusudhanu23@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <img src="./assets/images/phone.png" alt="Web development icon" width="25">
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+1 6575408460</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <img src="./assets/images/calendar.png" alt="Web development icon" width="22">
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">8 March, 2001</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <img src="./assets/images/location-pin.png" alt="Web development icon" width="25">
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Fullerton, CA</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://github.com/madhu-unnava" target = "_blank" class="social-link">
+              <img src="./assets/images/github.png" alt="Web development icon" width="25">
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/madhu-sudhan23/" target = "_blank" class="social-link">
+              <img src="./assets/images/linkedin.png" alt="Web development icon" width="25">
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+   
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+     
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article id="about"  class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            As a Data Analyst and Engineer, I specialize in transforming raw data into actionable insights that empower organizations to make informed decisions. 
+            Leveraging a blend of technical skills and strategic thinking, I create data-driven solutions that drive measurable impact and align with organizational goals.
+          </p>
+        
+
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Core Capabilities</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/ETL.png
+                " alt="design icon" width="44">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">ETL Pipelines & Data Integration</h4>
+
+                <p class="service-item-text">
+                  I design and implement scalable ETL pipelines that seamlessly integrate and transform raw data from diverse sources into structured formats, enabling efficient analysis.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/analysis.png" alt="Web development icon" width="47">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Advanced Data Analytics</h4>
+
+                <p class="service-item-text">
+                  I leverage advanced statistical and analytical techniques to extract meaningful insights, uncover hidden trends, and provide actionable recommendations.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/BI.png" alt="mobile app icon" width="44">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">BI & Reporting</h4>
+
+                <p class="service-item-text">
+                  I create interactive dashboards and automated reporting solutions that empower stakeholders with clear, real-time visibility into key metrics and business performance..
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/ML.png" alt="camera icon" width="45">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">ML & Predictive Analytics</h4>
+
+                <p class="service-item-text">
+                  I develop and deploy predictive models that identify future trends, optimize business processes, and enhance operational efficiency through data-driven forecasting.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article  id="resume"  class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <img src="./assets/images/graduation.png" alt="camera icon" width="25">
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">California State University, Fullerton, CA, USA</h4>
+
+              <span>Master's in Information Systems and Business Analytics, 2022 — 2024</span>
+
+              <p class="timeline-text">
+                Developed expertise in data mining, transformation, statistical analysis, and predictive modeling through coursework in Business Data Transformation, Statistics for Data Science, and Advanced Regression Analysis. 
+                Enhanced skills in IT project management and business process optimization to deliver scalable, data-driven solutions aligned with organizational goals.
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Lovely Professional University, Punjab, India</h4>
+
+              <span>Bachelor's in Computer Science and Engineering, 2018 — 2022</span>
+
+              <p class="timeline-text">
+                Established a strong foundation in computer science through coursework in Data Structures and Algorithms, Database Management Systems, Cloud Computing, and Artificial Intelligence. 
+                Gained a deep understanding of software development processes and data analytics to drive innovative solutions and enable informed, data-driven decision-making.
+              </p>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <img src="./assets/images/experience.png" alt="camera icon" width="25">
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">VERIZON</h4>
+
+              <span>Data Analyst, June 2024 — Present</span>
+
+              <ul class="timeline-text">
+                <li>
+                    Engineered scalable ETL pipelines using Python and AWS Glue, automating the integration of daily data logs across customer, network, and operational data, achieving a 30% increase in processing efficiency.
+                </li>
+                <li>
+                    Developed machine learning models using scikit-learn to predict customer churn. Integrated these models into a scalable environment using AWS Lambda for real-time scoring, reducing churn by 10%.
+                </li>
+            </ul>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">VERTOCITY</h4>
+
+              <span>Data Analyst, July 2021 — July 2022</span>
+
+              <ul class="timeline-text">
+                <li>
+                  Engineered clustering algorithms using K-Means to segment learners based on platform interactions, enabling personalized recommendations that boosted course completion rates by 15%.
+                </li>
+                <li>
+                  Collaborated with the product team to analyze user engagement data, identifying underused platform features. Proposed and implemented UX enhancements that improved feature adoption by 18%.
+                </li>
+            </ul>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">VERTOCITY</h4>
+
+              <span>Data Analyst Intern, January 2021 — July 2021</span>
+
+              <ul class="timeline-text">
+                <li>
+                  Conducted A/B testing on email and ad campaigns, leveraging Python for statistical analysis to optimize marketing strategies, driving a 12% increase in lead conversion.
+                </li>
+                <li>
+                  Built interactive dashboards in Power BI to visualize campaign performance and marketing ROI, supporting real-time decision-making for the marketing team.
+                </li>
+            </ul>
+
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Python</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">SQL</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">R Programming</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Spark</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Power BI & Tableau</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Mongo DB & SQL Databases</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">AWS</h5>
+                <data value="85">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Snowflake</h5>
+                <data value="85">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Apache Airflow & Apache Kafka</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">CI/CD (Git, Jenkins, Docker)</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section> 
+
+      </article>
+
+
+ <!--
+        - #LEADERSHIP & AWARDS
+      -->
+      <article  id="leadership & awards"  class="leadership & awards" data-page="leadership & awards">
+
+        <header>
+          <h2 class="h2 article-title">Leadership & Awards</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <img src="./assets/images/leadership.png" alt="camera icon" width="25">
+            </div>
+
+            <h3 class="h3">Leadership</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">AIESEC in Jalandhar</h4>
+
+              <span>Team Leader - Sales & University Relations , Jan 2019 — Jan 2021</span>
+
+              <ul class="timeline-text">
+                <li>
+                  Developed and implemented sales strategies to enhance outreach, drive lead conversions, and optimize marketing efforts, aligning campaigns with AIESEC’s mission to maximize participation in exchange programs.
+                <li>
+                  <li>
+                    Managed a team to achieve sales and marketing targets, while coordinating with university partners to establish collaborations that aligned with AIESEC’s objectives and enhanced program outreach through strategic planning.
+                  <li>
+            </li>
+          </ol>
+            
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <img src="./assets/images/trophy.png" alt="camera icon" width="21">
+              </div>
+  
+              <h3 class="h3">Awards</h3>
+            </div>
+  
+            <ol class="timeline-list">
+  
+              <li class="timeline-item">
+  
+                <h4 class="h4 timeline-item-title">Best Team Leader - AIESEC in Jalandhar</h4>
+  
+                <span>Team Leader - Sales & University Relations , Jan 2020 — Jan 2021</span>
+  
+                <ul class="timeline-text">
+                  <li>
+                    Awarded 'Best Team Leader of the Year' for exemplary leadership in achieving sales targets, fostering strategic partnerships, and driving team performance to support AIESEC’s organizational growth.
+                  </li>
+
+            
+          </ol>
+     
+        </section>
+
+      </article>
+
+      <!--
+        - #VOLUNTEERING
+      -->
+      <article  id="volunteering"  class="volunteering" data-page="volunteering">
+
+        <header>
+          <h2 class="h2 article-title">volunteering</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <img src="./assets/images/earth.png" alt="camera icon" width="21">
+            </div>
+
+            <h3 class="h3">volunteering</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Universitas Pembangunan Nasional “Veteran” Yogyakarta </h4>
+
+              <span>Marketing Analyst, Dec 2019 — Feb 2020</span>
+
+              <ul class="timeline-text">
+                <li>
+                  As part of AIESEC's international exchange program under the supervision of Universitas Pembangunan Nasional 'Veteran' Yogyakarta, I collaborated with a multicultural team of 7 peers to design and implement data-driven sales and marketing strategies for a local SME, resulting in a 15% revenue increase and 20% growth in customer engagement.
+                  <li>
+                    I also secured 3 strategic partnerships for the SME, leveraging market analysis and stakeholder collaboration to expand their business network and market presence.
+                    <li>
+                  
+              </li>
+
+            
+          </ol>
+     
+        </section>
+
+      </article>
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article id="portfolio"  class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+             
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item project-category="Analytics">
+              <a href="https://github.com/madhu-unnava/Grubhub_Delivery_Analytics" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.png" alt="Grubhub Delivery Analytics" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Grubhub Delivery Analytics</h3>
+
+                <p class="project-category">Analytics</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item project-category="Analytics">
+              <a href="https://github.com/madhu-unnava/Stock-Portfolio-Optimization" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.jpg" alt="Stock Portfolio Optimization" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Stock Portfolio Optimization </h3>
+
+                <p class="project-category">Analytics</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item project-category="Analytics">
+              <a href="https://github.com/madhu-unnava/Autism-Spectrum-Disorder-Prediction" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.jpg" alt="Autism Spectrum Disorder Prediction" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Autism Spectrum Disorder Prediction</h3>
+
+                <p class="project-category">Machine Learning</p>
+
+              </a>
+            </li>
+
+            
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article id="contact"  class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d165190.24951224344!2d-117.99631750118461!3d33.870359202968634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dd28120c2e7311%3A0xb6636a24f35105bc!2sFullerton%2C%20CA%2C%20USA!5e0!3m2!1sen!2sus!4v1700000000000"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <span>Send Message</span>
+             
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
