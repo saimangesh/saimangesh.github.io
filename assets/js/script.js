@@ -107,17 +107,22 @@ const pages = document.querySelectorAll("[data-page]");
 for (let i = 0; i < navigationLinks.length; i++) {
   navigationLinks[i].addEventListener("click", function () {
 
+    const targetPage = this.getAttribute("href").replace("#", ""); // Extract the target page
+
     for (let j = 0; j < pages.length; j++) {
-      // Use getAttribute("href") and replace "#"
-      if (this.getAttribute("href").replace("#", "") === pages[j].dataset.page) {
-        pages[j].classList.add("active");
-        navigationLinks[i].classList.add("active");
-        window.scrollTo(0, 0); // Scroll to the top
+      // Match the target page with data-page
+      if (targetPage === pages[j].dataset.page) {
+        pages[j].classList.add("active"); // Highlight the corresponding page
+        navigationLinks[i].classList.add("active"); // Highlight the navigation link
       } else {
         pages[j].classList.remove("active");
         navigationLinks[j].classList.remove("active");
       }
     }
 
+    // Scroll to the top of the target section
+    document.querySelector(`#${targetPage}`).scrollIntoView({ behavior: "smooth" });
   });
+}
+
 }
